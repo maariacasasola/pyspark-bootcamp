@@ -49,13 +49,13 @@ Antes de comenzar, asegúrate de tener instalado lo siguiente:
 4. **Haz clic derecho encima del contenedor desplegado y selecciona 'Attach in Visual Studio Code' (esto abrirá una nueva ventana de VSC en el entorno del contenedor)**
 5. **Navega hasta /pyspark/notebooks/ y abre el primer archivo de laboratorio "01_intro_spark.ipynb" para comenzar.**
 
-## Contenido actual
+## 🧠 Contenido actual
 - notebooks/01_lab_movies.ipynb: manipulación de datos de películas usando PySpark
 - data/movies.csv: dataset con datos de ejemplo
 - Escritura de datos en formato Parquet particionado
 - Uso de funciones de ventana (row_number, Window)
 
-# Conceptos teóricos
+# 💡 Conceptos teóricos
 ## ¿Qué es Apache Spark y cómo funciona internamente?
 Apache Spark es un motor de procesamiento distribuido en memoria que permite ejecutar tareas de análisis de datos a gran escala. Su éxito se debe a su velocidad, facilidad de uso y flexibilidad.
 
@@ -82,7 +82,7 @@ RDDs (Resilient Distributed Datasets)
  - Vectorización de operaciones.
 - Esto hace que Spark sea mucho más rápido que Hadoop MapReduce.
 
-## PySpark: DataFrames, schema inference y transformaciones
+## 🧩 PySpark: DataFrames, schema inference y transformaciones
 ### ¿Cómo funciona DataFrame en PySpark?
 Es una colección distribuida de datos organizados en columnas (como una tabla de SQL o un DataFrame de pandas) construido sobre RDDs, pero con optimización automática gracias a Catalyst.
 Spark puede inferir automáticamente los tipos de datos (inferSchema=True) o puedes especificarlos manualmente con StructType.
@@ -101,9 +101,9 @@ Spark puede inferir automáticamente los tipos de datos (inferSchema=True) o pue
 - Pandas: Ideal para datasets < 1 GB, exploración rápida.
 - PySpark: Fundamental para Big Data (decenas o cientos de GB), procesamiento distribuido, producción.
 
-# Autor
+# 🧑‍💻 Autor
 Creado y documentado por María Casasola como parte de un proceso de aprendizaje profesional en ingeniería de datos.
 Para dudas, puedes contactarme vía [LinkedIn](https://www.linkedin.com/in/mar%C3%ADa-casasola-calzadilla-303970184/).
 
-## Contribuciones
+## 🤝 Contribuciones
 Este repositorio está en constante mejora. Si tienes ideas, correcciones o quieres colaborar, ¡haz un fork y crea un pull request!
