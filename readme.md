@@ -47,7 +47,13 @@ Antes de comenzar, asegúrate de tener instalado lo siguiente:
 
 3. **Navega a la pestaña de la extensión 'Dev Containers', previamente instalada en VSC**
 4. **Haz clic derecho encima del contenedor desplegado y selecciona 'Attach in Visual Studio Code' (esto abrirá una nueva ventana de VSC en el entorno del contenedor)**
-5. **Navega hasta /pyspark/notebooks/ y abre el primer archivo de laboratorio "01_intro_spark.ipynb" para comenzar**
+5. **Navega hasta /pyspark/notebooks/ y abre el primer archivo de laboratorio "01_intro_spark.ipynb" para comenzar.**
+
+## Contenido actual
+- notebooks/01_lab_movies.ipynb: manipulación de datos de películas usando PySpark
+- data/movies.csv: dataset con datos de ejemplo
+- Escritura de datos en formato Parquet particionado
+- Uso de funciones de ventana (row_number, Window)
 
 # Conceptos teóricos
 ## ¿Qué es Apache Spark y cómo funciona internamente?
@@ -92,5 +98,12 @@ Spark puede inferir automáticamente los tipos de datos (inferSchema=True) o pue
 | Uso típico                    | Exploración local      | Procesamiento a gran escala        |
 
 ### ¿Cuándo usar cada uno?
-pandas: Ideal para datasets < 1 GB, exploración rápida.
-PySpark: Fundamental para Big Data (decenas o cientos de GB), procesamiento distribuido, producción
+- Pandas: Ideal para datasets < 1 GB, exploración rápida.
+- PySpark: Fundamental para Big Data (decenas o cientos de GB), procesamiento distribuido, producción.
+
+# Autor
+Creado y documentado por María Casasola como parte de un proceso de aprendizaje profesional en ingeniería de datos.
+Para dudas, puedes contactarme vía [LinkedIn](https://www.linkedin.com/in/mar%C3%ADa-casasola-calzadilla-303970184/).
+
+## Contribuciones
+Este repositorio está en constante mejora. Si tienes ideas, correcciones o quieres colaborar, ¡haz un fork y crea un pull request!
