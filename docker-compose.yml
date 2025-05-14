@@ -1,0 +1,10 @@
+services:
+  spark-jupyter:
+    build: .
+    ports:
+      - "8888:8888"
+    volumes:
+      - ./notebooks:/home/pyspark/notebooks
+      - ./data:/home/pyspark/data
+    environment:
+      - PYSPARK_PYTHON=python
