@@ -22,33 +22,32 @@ El repositorio incluye notebooks, código de transformación, datos de ejemplo, 
 
 Antes de comenzar, asegúrate de tener instalado lo siguiente:
 
-- [Visual Studio Code](https://code.visualstudio.com/download) con la extensiones:
-    - "Container Tools" (https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-containers)
-    - "Dev Containers" (https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers)
+- [Visual Studio Code](https://code.visualstudio.com/download) con las extensiones:
+    - ["Container Tools"](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-containers)
+    - ["Dev Containers"](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers)
 - [Docker Desktop](https://www.docker.com/get-started/)
-- Git (para clonar el repositorio)
+- [Git](https://git-scm.com/downloads) (para clonar el repositorio)
 
 ---
 
-
 ## 🚀 Pasos para ejecutar el entorno
 
-1. **Clona este repositorio:**
+1. **Ejecuta el siguiente comando para clonar este repositorio en git bash:**
 
    ```bash
    git clone https://github.com/tu-usuario/pyspark-bootcamp.git
    cd pyspark-bootcamp
    ```
 
-2. **Crea la imagen de Docker si no está creada y despliega un contenedor a partir de ella:**
+2. **Ejecuta este comando para crear la imagen de Docker, si no está creada, y desplegar un contenedor a partir de ella:**
 
     ```bash
     docker compose up
     ```
 
 3. **Navega a la pestaña de la extensión 'Dev Containers', previamente instalada en VSC**
-4. **Haz clic derecho encima del contenedor desplegado y selecciona 'Attach in Visual Studio Code' (esto abrirá una nueva ventana de VSC con el entorno del contenedor)**
-5. **Navegar hasta /pyspark/notebooks/ y abrir el primer archivo de laboratorio "01_intro_spark.ipynb" para comenzar**
+4. **Haz clic derecho encima del contenedor desplegado y selecciona 'Attach in Visual Studio Code' (esto abrirá una nueva ventana de VSC en el entorno del contenedor)**
+5. **Navega hasta /pyspark/notebooks/ y abre el primer archivo de laboratorio "01_intro_spark.ipynb" para comenzar**
 
 # Conceptos teóricos
 ## ¿Qué es Apache Spark y cómo funciona internamente?
@@ -67,7 +66,7 @@ RDDs (Resilient Distributed Datasets)
 
 ### Catalyst Optimizer
 - Es el optimizador de consultas de Spark SQL.
-- Transforma el plan lógico en plan físico eficiente.
+- Transforma el plan lógico en un "plan físico" eficiente.
 - Aplica reglas como predicado pushdown, reordenamiento de joins, etc.
 
 ### Tungsten Engine
