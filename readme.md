@@ -32,7 +32,7 @@ Antes de comenzar, asegúrate de tener instalado lo siguiente:
 
 ## 🚀 Pasos para ejecutar el entorno
 
-1. **Ejecuta el siguiente comando para clonar este repositorio en git bash:**
+1. **Ejecuta el siguiente comando para clonar este repositorio en git bash (o descarga el proyecto en .zip):**
 
    ```bash
    git clone https://github.com/tu-usuario/pyspark-bootcamp.git
@@ -50,8 +50,8 @@ Antes de comenzar, asegúrate de tener instalado lo siguiente:
 5. **Navega hasta /pyspark/notebooks/ y abre el primer archivo de laboratorio "01_intro_spark.ipynb" para comenzar.**
 
 ## 🧠 Contenido actual
-- notebooks/: manipulación de datos de películas y valoraciones usando PySpark
-- data/: datasets con datos de ejemplo
+- notebooks/: este directorio contiene diferentes carpetas que dividen el aprendizaje por niveles o *laboratorios, empezando por el 01. Dentro de cada *carpeta de laboratorio* encontrarás un archivo .ipynb que comienza por el número de laboratorio al que pertenezca (coincide con el número que aparece en el nombre de la carpeta), este *archivo explicativo* incluye explicaciones de los distintos métodos y funciones que se usen de PySpark. Además, también se añade el mismo código en un archivo .py, para quien se sienta más cómodo trabajando directamente en scripts de Python. Finalmente, en cada *carpeta de laboratorio* hay un archivo adicional .ipynb que comienza por "challenge-" donde se proponen una serie de ejercicios con sus resultados. Estos *retos* están pensados tanto para poner en práctica la información observada en los *archivos explicativos* como para realizar un aprendizaje autodidacta buscando en Internet.  
+- data/: datasets con los datos de ejemplo que se usan en los distintos laboratorios.
 
 # 💡 Conceptos teóricos
 ## ¿Qué es Apache Spark y cómo funciona internamente?
