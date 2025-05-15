@@ -14,11 +14,12 @@ Este proyecto contiene una serie de laboratorios educativos enfocados en la **in
 - Ejecución en entornos **contenedorizados (Docker)**
 - Buenas prácticas en notebooks
 
-El repositorio incluye notebooks, código de transformación, datos de ejemplo, y un entorno preconfigurado con Docker que funciona perfectamente en Windows.
+El repositorio incluye notebooks, código de transformación, datos de ejemplo, y un entorno preconfigurado con Docker sobre Windows.
 
 ## 🧠 Contenido actual
-- notebooks/: este directorio contiene diferentes carpetas que dividen el aprendizaje por niveles o *laboratorios, empezando por el 01. Dentro de cada *carpeta de laboratorio* encontrarás un archivo .ipynb que comienza por el número de laboratorio al que pertenezca (coincide con el número que aparece en el nombre de la carpeta), este *archivo explicativo* incluye explicaciones de los distintos métodos y funciones que se usen de PySpark. Además, también se añade el mismo código en un archivo .py, para quien se sienta más cómodo trabajando directamente en scripts de Python. Finalmente, en cada *carpeta de laboratorio* hay un archivo adicional .ipynb que comienza por "challenge-" donde se proponen una serie de ejercicios con sus resultados. Estos *retos* están pensados tanto para poner en práctica la información observada en los *archivos explicativos* como para realizar un aprendizaje autodidacta buscando en Internet.  
-- data/: datasets con los datos de ejemplo que se usan en los distintos laboratorios.
+**notebooks/**: este directorio contiene diferentes carpetas que dividen el aprendizaje por niveles o *laboratorios*, empezando por el 01. Dentro de cada *carpeta de laboratorio* encontrarás un archivo .ipynb que comienza por el número de laboratorio al que pertenezca (coincide con el número que aparece en el nombre de la carpeta), este *archivo explicativo* incluye explicaciones de los distintos métodos y funciones que se usen de PySpark. Además, también se añade el mismo código en un archivo .py, para quien se sienta más cómodo trabajando directamente en scripts de Python. Finalmente, en cada *carpeta de laboratorio* hay un archivo adicional .ipynb que comienza por "challenge-" donde se proponen una serie de ejercicios con sus resultados. Estos *retos* están pensados tanto para poner en práctica la información observada en los *archivos explicativos* como para realizar un aprendizaje autodidacta buscando en Internet.  
+
+**data/**: contiene datasets con los datos de ejemplo que se usan en los distintos laboratorios.
 
 ## ✅ Requisitos
 
@@ -50,6 +51,7 @@ Antes de comenzar, asegúrate de tener instalado lo siguiente:
 5. **Navega hasta /pyspark/notebooks/ y abre el primer archivo de laboratorio "01_intro_spark.ipynb" para comenzar.**
 
 ---
+
 # 💡 Conceptos teóricos
 
 ## ¿Qué es Apache Spark y cómo funciona internamente?
@@ -96,6 +98,8 @@ Spark puede inferir automáticamente los tipos de datos (inferSchema=True) o pue
 ### ¿Cuándo usar cada uno?
 - Pandas: Ideal para datasets < 1 GB, exploración rápida.
 - PySpark: Fundamental para Big Data (decenas o cientos de GB), procesamiento distribuido, producción.
+
+---
 
 # 🧑‍💻 Autor
 Creado y documentado por María Casasola como parte de un proceso de aprendizaje profesional en ingeniería de datos.
