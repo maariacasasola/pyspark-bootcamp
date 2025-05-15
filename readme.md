@@ -50,10 +50,8 @@ Antes de comenzar, asegúrate de tener instalado lo siguiente:
 5. **Navega hasta /pyspark/notebooks/ y abre el primer archivo de laboratorio "01_intro_spark.ipynb" para comenzar.**
 
 ## 🧠 Contenido actual
-- notebooks/01_lab_movies.ipynb: manipulación de datos de películas usando PySpark
-- data/movies.csv: dataset con datos de ejemplo
-- Escritura de datos en formato Parquet particionado
-- Uso de funciones de ventana (row_number, Window)
+- notebooks/: manipulación de datos de películas y valoraciones usando PySpark
+- data/: datasets con datos de ejemplo
 
 # 💡 Conceptos teóricos
 ## ¿Qué es Apache Spark y cómo funciona internamente?
