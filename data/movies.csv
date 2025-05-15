@@ -1,19 +1,21 @@
-title,genre,rating,year
-Inception,Sci-Fi,8.8,2010
-The Dark Knight,Action,9.0,2008
-Interstellar,Sci-Fi,8.6,2014
-The Matrix,Sci-Fi,8.7,1999
-The Godfather,Crime,9.2,1972
-Pulp Fiction,Crime,8.9,1994
-Forrest Gump,Drama,8.8,1994
-The Shawshank Redemption,Drama,9.3,1994
-The Avengers,Action,8.0,2012
-Gladiator,Action,8.5,2000
-Titanic,Drama,7.8,1997
-The Social Network,Drama,7.7,2010
-Parasite,Thriller,8.6,2019
-Whiplash,Drama,8.5,2014
-The Grand Budapest Hotel,Comedy,8.1,2014
-Toy Story (1995),Adventure,Comedy,9.2,1995
-2,Jumanji (1995),Adventure|Children|Fantasy
-3,Grumpier Old Men (1995),Comedy|Romance
+movieId,title,genres,views,quality
+1,Toy Story (2010),Adventure|Animation|Children|Comedy|Fantasy,2924853,high
+2,Jumanji (1995),Adventure|Children|Fantasy,2287319,high
+3,Grumpier Old Men (1999),Comedy|Romance,43859,medium
+4,Waiting to Exhale (2001),Comedy|Drama|Romance,1827,low
+5,Father of the Bride Part II (1995),Comedy,29384,medium
+6,Heat (2021),Action|Crime|Thriller,4389,low
+7,Sabrina (1995),Comedy|Romance,238732,medium
+8,Tom and Huck (2010),Adventure|Children,28323,medium
+9,Sudden Death (1995),Action,12657,low
+10,GoldenEye (2024),Action|Adventure|Thriller,32476,medium
+11,The American President (1995),Comedy|Drama|Romance,1273681,high
+12,Dracula: Dead and Loving It (1990),Comedy|Horror,3274269,high
+13,Balto (1999),Adventure|Animation|Children,298374,medium
+14,Nixon (1999),Drama,5837,low
+15,Cutthroat Island (2001),Action|Adventure|Romance,92987,medium
+16,Casino (2001),Crime|Drama,80578,medium
+17,Sense and Sensibility (2025),Drama|Romance,26395,medium
+18,Four Rooms (2024),Comedy,3898,low
+19,Ace Ventura: When Nature Calls (2002),Adventure|Comedy,20579,medium
+20,Money Train (2005),Action|Comedy|Crime|Drama|Thriller,69387,medium
