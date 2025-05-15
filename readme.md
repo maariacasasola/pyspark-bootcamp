@@ -16,7 +16,9 @@ Este proyecto contiene una serie de laboratorios educativos enfocados en la **in
 
 El repositorio incluye notebooks, código de transformación, datos de ejemplo, y un entorno preconfigurado con Docker que funciona perfectamente en Windows.
 
----
+## 🧠 Contenido actual
+- notebooks/: este directorio contiene diferentes carpetas que dividen el aprendizaje por niveles o *laboratorios, empezando por el 01. Dentro de cada *carpeta de laboratorio* encontrarás un archivo .ipynb que comienza por el número de laboratorio al que pertenezca (coincide con el número que aparece en el nombre de la carpeta), este *archivo explicativo* incluye explicaciones de los distintos métodos y funciones que se usen de PySpark. Además, también se añade el mismo código en un archivo .py, para quien se sienta más cómodo trabajando directamente en scripts de Python. Finalmente, en cada *carpeta de laboratorio* hay un archivo adicional .ipynb que comienza por "challenge-" donde se proponen una serie de ejercicios con sus resultados. Estos *retos* están pensados tanto para poner en práctica la información observada en los *archivos explicativos* como para realizar un aprendizaje autodidacta buscando en Internet.  
+- data/: datasets con los datos de ejemplo que se usan en los distintos laboratorios.
 
 ## ✅ Requisitos
 
@@ -27,8 +29,6 @@ Antes de comenzar, asegúrate de tener instalado lo siguiente:
     - ["Dev Containers"](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers)
 - [Docker Desktop](https://www.docker.com/get-started/)
 - [Git](https://git-scm.com/downloads) (para clonar el repositorio)
-
----
 
 ## 🚀 Pasos para ejecutar el entorno
 
@@ -49,11 +49,9 @@ Antes de comenzar, asegúrate de tener instalado lo siguiente:
 4. **Haz clic derecho encima del contenedor desplegado y selecciona 'Attach in Visual Studio Code' (esto abrirá una nueva ventana de VSC en el entorno del contenedor)**
 5. **Navega hasta /pyspark/notebooks/ y abre el primer archivo de laboratorio "01_intro_spark.ipynb" para comenzar.**
 
-## 🧠 Contenido actual
-- notebooks/: este directorio contiene diferentes carpetas que dividen el aprendizaje por niveles o *laboratorios, empezando por el 01. Dentro de cada *carpeta de laboratorio* encontrarás un archivo .ipynb que comienza por el número de laboratorio al que pertenezca (coincide con el número que aparece en el nombre de la carpeta), este *archivo explicativo* incluye explicaciones de los distintos métodos y funciones que se usen de PySpark. Además, también se añade el mismo código en un archivo .py, para quien se sienta más cómodo trabajando directamente en scripts de Python. Finalmente, en cada *carpeta de laboratorio* hay un archivo adicional .ipynb que comienza por "challenge-" donde se proponen una serie de ejercicios con sus resultados. Estos *retos* están pensados tanto para poner en práctica la información observada en los *archivos explicativos* como para realizar un aprendizaje autodidacta buscando en Internet.  
-- data/: datasets con los datos de ejemplo que se usan en los distintos laboratorios.
-
+---
 # 💡 Conceptos teóricos
+
 ## ¿Qué es Apache Spark y cómo funciona internamente?
 Apache Spark es un motor de procesamiento distribuido en memoria que permite ejecutar tareas de análisis de datos a gran escala. Su éxito se debe a su velocidad, facilidad de uso y flexibilidad.
 
