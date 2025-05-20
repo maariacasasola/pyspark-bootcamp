@@ -25,11 +25,11 @@ El repositorio incluye notebooks, código de transformación, datos de ejemplo, 
 │    ├── 01_lab_name
 │    │    ├── 01_lab_name.ipynb
 │    │    ├── 01_lab_name.py
-│    │    ├── challenge-01_lab_name.ipynb
+│    │    └── challenge-01_lab_name.ipynb
 │    ├── 02_lab_name
 │    │    ├── 02_lab_name.ipynb
 │    │    ├── 02_lab_name.py
-│    │    ├── challenge-02_lab_name.ipynb
+│    │    └── challenge-02_lab_name.ipynb
 │    ├── 03_lab_name
 │    │    ├── ...
 │    ...
