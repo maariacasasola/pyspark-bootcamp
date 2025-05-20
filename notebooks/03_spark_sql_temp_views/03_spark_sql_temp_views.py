@@ -1,6 +1,4 @@
 from pyspark.sql import SparkSession
-import pyspark.sql.functions as f
-from pyspark.sql.window import Window
 
 # Crear la sesión de Spark
 spark = SparkSession.builder.appName("PySpark03").getOrCreate()
