@@ -19,19 +19,19 @@ El repositorio incluye notebooks, código de transformación, datos de ejemplo, 
 ## 🧠 Contenido actual
 *Linaje de directiorios*
 ├── data
-│   ├── ...
+│    ├── ...
 ├── notebooks
-│   ├── 01_lab_name
-│   │   ├── 01_lab_name.ipynb
-│   │   ├── 01_lab_name.py
-│   │   ├── challenge-01_lab_name.ipynb
-│   ├── 02_lab_name
-│   │   ├── 02_lab_name.ipynb
-│   │   ├── 02_lab_name.py
-│   │   ├── challenge-02_lab_name.ipynb
-│   ├── 03_lab_name
-│   │   ├── ...
-│   ...
+│    ├── 01_lab_name
+│    │    ├── 01_lab_name.ipynb
+│    │    ├── 01_lab_name.py
+│    │    ├── challenge-01_lab_name.ipynb
+│    ├── 02_lab_name
+│    │    ├── 02_lab_name.ipynb
+│    │    ├── 02_lab_name.py
+│    │    ├── challenge-02_lab_name.ipynb
+│    ├── 03_lab_name
+│    │    ├── ...
+│    ...
 
 **data/**: contiene datasets con los datos de ejemplo que se usan en los distintos laboratorios.
 
