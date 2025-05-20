@@ -47,8 +47,8 @@ Antes de comenzar, asegúrate de tener instalado lo siguiente:
     ```
 
 3. **Navega a la pestaña de la extensión 'Dev Containers', previamente instalada en VSC**
-4. **Haz clic derecho encima del contenedor desplegado y selecciona 'Attach in Visual Studio Code' (esto abrirá una nueva ventana de VSC en el entorno del contenedor)**
-5. **Navega hasta /pyspark/notebooks/ y abre el primer archivo de laboratorio "01_intro_spark.ipynb" para comenzar.**
+4. **Haz clic derecho encima del contenedor desplegado y selecciona 'Attach Visual Studio Code' (esto abrirá una nueva ventana de VSC en el entorno del contenedor)**
+5. **Navega hasta /pyspark/notebooks/ y abre el primer archivo de laboratorio "01_intro_spark.ipynb" para comenzar. Lo primero que debes hacer al abrir el notebook es seleccionar el kernel de Python (en mi caso Python 3.11). Si no te aparece la opción al principio selecciona ""**
 
 ---
 
