@@ -5,7 +5,7 @@ USER root
 # Copia dependencias
 COPY requirements.txt /tmp/
 
-# Instala paquetes necesarios (ya trae Python 3.8 y pip)
+# Instala paquetes necesarios (ya trae Python 3.11 y pip)
 RUN pip install --upgrade pip && \
     pip install -r /tmp/requirements.txt
 
