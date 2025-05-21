@@ -18,10 +18,10 @@ El repositorio incluye notebooks, código de transformación, datos de ejemplo, 
 
 | Laboratorio | Título | Detalle |
 | ------------- | -------------------------- | ---------- |
-| Lab 01 | Introducción a PySpark | Creación y detención de sesiones, transofrmaciones sencillas con PySpark y formato Parquet |
-| Lab 02 | Joins, Aggregation y función Window | Distintos Joins disponibles en PySpark, funciones de agregación y uso de la función Window |
-| Lab 03 | Spark SQL y vistas temporales | Concepto de vistas temporales en Spark, funciones integradas y consultas de SQL |
-| Lab 04 | User Defined Functions (UDFs) | Creación, tranformaciones y aplicaciones de UDFs sobre los datos. Buenas prácticas con UDFs |
+| Lab 01 | **Introducción a PySpark** | Creación y detención de sesiones, transofrmaciones sencillas con PySpark y formato Parquet |
+| Lab 02 | **Joins, Aggregation y función Window** | Distintos Joins disponibles en PySpark, funciones de agregación y uso de la función Window |
+| Lab 03 | **Spark SQL y vistas temporales** | Concepto de vistas temporales en Spark, funciones integradas y consultas de SQL |
+| Lab 04 | **User Defined Functions (UDFs)** | Creación, tranformaciones y aplicaciones de UDFs sobre los datos. Buenas prácticas con UDFs |
 
 
 ## 🧠 Contenido actual
