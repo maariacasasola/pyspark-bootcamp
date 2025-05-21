@@ -14,7 +14,15 @@ Este proyecto contiene una serie de laboratorios educativos enfocados en la **in
 - Ejecución en entornos **contenedorizados (Docker)**
 - Buenas prácticas en notebooks
 
-El repositorio incluye notebooks, código de transformación, datos de ejemplo, y un entorno preconfigurado con Docker sobre Windows.
+El repositorio incluye notebooks, código de transformación, datos de ejemplo, y un entorno preconfigurado con Docker sobre Windows. La información aportada en cada laboratorio se estructura de la siguiente manera:
+
+| Laboratorio | Título | Detalle |
+| ------------- | -------------------------- | ---------- |
+| Lab 01 | **Introducción a PySpark** | Creación y detención de sesiones, transofrmaciones sencillas con PySpark y formato Parquet |
+| Lab 02 | **Joins, Aggregation y función Window** | Distintos Joins disponibles en PySpark, funciones de agregación y uso de la función Window |
+| Lab 03 | **Spark SQL y vistas temporales** | Concepto de vistas temporales en Spark, funciones integradas y consultas de SQL |
+| Lab 04 | **User Defined Functions (UDFs)** | Creación, tranformaciones y aplicaciones de UDFs sobre los datos. Buenas prácticas con UDFs |
+
 
 ## 🧠 Contenido actual
 *Linaje de directiorios*
@@ -43,6 +51,8 @@ El repositorio incluye notebooks, código de transformación, datos de ejemplo, 
 
 Antes de comenzar, asegúrate de tener instalado lo siguiente:
 
+- [Python 3.11](https://www.python.org/downloads/)
+    - Añadir a tus [variables de entorno](https://tecnoloco.istocks.club/como-agregar-python-a-la-variable-path-de-windows-wiki-util/2020-10-14/)
 - [Visual Studio Code](https://code.visualstudio.com/download) con las extensiones:
     - ["Container Tools"](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-containers)
     - ["Dev Containers"](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers)
