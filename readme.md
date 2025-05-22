@@ -56,9 +56,9 @@ pyspark-bootcamp/
 **data/**: contiene datasets con los datos de ejemplo que se usan en los distintos laboratorios.
 
 **labs/**: contiene los directorios de los laboratorios que se usan para realizar este bootcamp.
-~~~
+
 Todos los laboratorios contienen un archivo *XX_lab_name.ipynb*, siendo XX el número y lab_name el nombre específico del laboratorio. Además, la mayoría de ellos cuentan con un archivo *labXX-challenges.md* adicional con los enunciados de ejercicios propuestos para practicar lo aprendido en el laboratorio que corresponda. Finalmente, los archivos *labXX-solutions.ipynb* contienen las soluciones de dichos ejercicios propuestos.
-~~~
+
 
 ### Ejecución de Notebooks
 Cada notebook está diseñado para ser ejecutado de forma independiente. Se recomienda seguir el orden numérico para una progresión lógica del aprendizaje.
