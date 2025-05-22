@@ -4,7 +4,7 @@ services:
     ports:
       - "8888:8888"
     volumes:
-      - ./notebooks:/home/pyspark/notebooks
+      - ./labs:/home/pyspark/labs
       - ./data:/home/pyspark/data
     environment:
       - PYSPARK_PYTHON=python

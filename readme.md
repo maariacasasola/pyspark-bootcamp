@@ -18,37 +18,52 @@ El repositorio incluye notebooks, código de transformación, datos de ejemplo, 
 
 | Laboratorio | Título | Detalle |
 | ------------- | -------------------------- | ---------- |
-| Lab 01 | **Introducción a PySpark** | Creación y detención de sesiones, transofrmaciones sencillas con PySpark y formato Parquet |
-| Lab 02 | **Joins, Aggregation y función Window** | Distintos Joins disponibles en PySpark, funciones de agregación y uso de la función Window |
-| Lab 03 | **Spark SQL y vistas temporales** | Concepto de vistas temporales en Spark, funciones integradas y consultas de SQL |
-| Lab 04 | **User Defined Functions (UDFs)** | Creación, tranformaciones y aplicaciones de UDFs sobre los datos. Buenas prácticas con UDFs |
-
+| Lab 01 | **Introducción y arquitectura** | Qué es Spark. Cluster vs. local. Driver, executor, jobs, stages y tasks |
+| Lab 02 | **RDDs vs. DataFrames** | Cómo se crean y manipulan. Ventajas y desventajas. Casos en los que aún se usan RDDs |
+| Lab 03 | **Transformaciones y acciones** | Transformaciones: map, filter, groupBy, join. Acciones: count, collect, take, save. Lazy evaluation y su importancia |
+| Lab 04 | **Joins y ventanas** | Tipos de Joins. Funciones ventana. Uso en casos reales |
+| Lab 05 | **Spark SQL** | Crear tablas temporales, consultas SQL. UDFs y funciones integradas. Optimización con Catalyst |
+| Lab 06 | **User Defined Functions (UDFs)** | Funciones definidas por el usuario. |
+| Lab 07 | **Optimización** | Caché y persistencia. Reparticionamiento. Plan de ejecución. Escritura eficiente con Parquet |
 
 ## 🧠 Contenido actual
 *Linaje de directiorios*
 ```
-├── data
-│    ├── ...
-├── notebooks
-│    ├── 01_lab_name
-│    │    ├── 01_lab_name.ipynb
-│    │    ├── 01_lab_name.py
-│    │    └── challenge-01_lab_name.ipynb
-│    ├── 02_lab_name
-│    │    ├── 02_lab_name.ipynb
-│    │    ├── 02_lab_name.py
-│    │    └── challenge-02_lab_name.ipynb
-│    ├── 03_lab_name
-│    │    ├── ...
-│    ...
+pyspark-bootcamp/
+│
+├── readme.md│
+│
+├── data/
+│   └── [archivos CSV, Parquet de práctica]
+│
+└── labs/
+    ├── 01_intro_spark/
+    │   └── [contenido laboratorio]
+    ├── 02_rdds_vs_dataframes/
+    │   └── [contenido laboratorio]
+    ├── 03_transformaciones_acciones/
+    │   └── [contenido laboratorio]
+    ├── 04_ventanas_joins/
+    │   └── [contenido laboratorio]
+    ├── 05_spark_sql_basico/
+    │   └── [contenido laboratorio]
+    ├── 06_user_defined_functions/
+    │   └── [contenido laboratorio]
+    └── 07_optimizacion/
+        └── [contenido laboratorio]
 ```
 
 **data/**: contiene datasets con los datos de ejemplo que se usan en los distintos laboratorios.
 
-**notebooks/**: este directorio contiene diferentes carpetas que dividen el aprendizaje por niveles o *laboratorios*, empezando por el 01. Dentro de cada *carpeta de laboratorio* encontrarás un archivo .ipynb que comienza por el número de laboratorio al que pertenezca (coincide con el número que aparece en el nombre de la carpeta), este *archivo explicativo* incluye explicaciones de los distintos métodos y funciones que se usan. Además, también se añade el mismo código en un archivo .py, para quien se sienta más cómodo trabajando directamente en scripts de Python. Finalmente, en cada *carpeta de laboratorio* hay también un archivo adicional .ipynb que comienza por "challenge-" donde se proponen una serie de ejercicios con sus resultados. Estos *retos* están pensados tanto para poner en práctica la información observada en los *archivos explicativos*, para poder realizar un aprendizaje autodidacta buscando en Internet.  
+**labs/**: contiene los directorios de los laboratorios que se usan para realizar este bootcamp.
+~~~
+Todos los laboratorios contienen un archivo *XX_lab_name.ipynb*, siendo XX el número y lab_name el nombre específico del laboratorio. Además, la mayoría de ellos cuentan con un archivo *labXX-challenges.md* adicional con los enunciados de ejercicios propuestos para practicar lo aprendido en el laboratorio que corresponda. Finalmente, los archivos *labXX-solutions.ipynb* contienen las soluciones de dichos ejercicios propuestos.
+~~~
+
+### Ejecución de Notebooks
+Cada notebook está diseñado para ser ejecutado de forma independiente. Se recomienda seguir el orden numérico para una progresión lógica del aprendizaje.
 
 ## ✅ Requisitos
-
 Antes de comenzar, asegúrate de tener instalado lo siguiente:
 
 - [Python 3.11](https://www.python.org/downloads/)
@@ -76,7 +91,7 @@ Antes de comenzar, asegúrate de tener instalado lo siguiente:
 
 3. **Navega a la pestaña 'Containers', previamente instalada en VSC**
 4. **Haz clic derecho encima del contenedor desplegado y selecciona 'Attach Visual Studio Code' (esto abrirá una nueva ventana de VSC en el entorno del contenedor)**
-5. **Navega hasta /pyspark/notebooks/ y abre la carpeta del laboratorio que te interese para comenzar. Lo primero que debes hacer al abrir un notebook es seleccionar el kernel de Python (en mi caso Python 3.11)**
+5. **Navega hasta /pyspark/labs/ y abre la carpeta del laboratorio que te interese para comenzar. Lo primero que debes hacer al abrir un notebook es seleccionar el kernel de Python (en mi caso Python 3.11)**
 
 ---
 
@@ -135,3 +150,6 @@ Para dudas, puedes contactarme vía [LinkedIn](https://www.linkedin.com/in/mar%C
 
 ## 🤝 Contribuciones
 Este repositorio está en constante mejora. Si tienes ideas, correcciones o quieres colaborar, ¡haz un fork y crea un pull request!
+
+## 📄 Licencia
+Este proyecto está bajo la Licencia MIT. Consulta el archivo [LICENSE](LICENSE) para más detalles.
