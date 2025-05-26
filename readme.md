@@ -18,13 +18,13 @@ El repositorio incluye notebooks, código de transformación, datos de ejemplo, 
 
 | Laboratorio | Título | Detalle |
 | ------------- | -------------------------- | ---------- |
-| Lab 01 | **Introducción y arquitectura** | Qué es Spark. Cluster vs. local. Driver, executor, jobs, stages y tasks |
+| Lab 01 | **Introducción y arquitectura** | Qué es Spark. Cluster vs. local. Driver, executor, worker, jobs, stages y tasks. Configuración de entorno: inicio y detención de sesiones |
 | Lab 02 | **RDDs vs. DataFrames** | Cómo se crean y manipulan. Ventajas y desventajas. Casos en los que aún se usan RDDs |
-| Lab 03 | **Transformaciones y acciones** | Transformaciones: map, filter, groupBy, join. Acciones: count, collect, take, save. Lazy evaluation y su importancia |
+| Lab 03 | **Transformaciones y acciones** | Lazy evaluation y su importancia. Transformaciones. Acciones. Aggregate. |
 | Lab 04 | **Joins y ventanas** | Tipos de Joins. Funciones ventana. Uso en casos reales |
-| Lab 05 | **Spark SQL** | Crear tablas temporales, consultas SQL. UDFs y funciones integradas. Optimización con Catalyst |
-| Lab 06 | **User Defined Functions (UDFs)** | Funciones definidas por el usuario. |
-| Lab 07 | **Optimización** | Caché y persistencia. Reparticionamiento. Plan de ejecución. Escritura eficiente con Parquet |
+| Lab 05 | **Spark SQL** | Crear tablas temporales, consultas SQL. Optimización con Catalyst |
+| Lab 06 | **User Defined Functions (UDFs)** | Funciones definidas por el usuario (UDF) |
+| Lab 07 | **Optimización** | Caché y persistencia. Reparticionamiento. Plan de ejecución. Escritura eficiente con Parquet y función explain() en profundidad |
 
 ## 🧠 Contenido actual
 *Linaje de directiorios*
