@@ -150,6 +150,3 @@ Para dudas, puedes contactarme vía [LinkedIn](https://www.linkedin.com/in/mar%C
 
 ## 🤝 Contribuciones
 Este repositorio está en constante mejora. Si tienes ideas, correcciones o quieres colaborar, ¡haz un fork y crea un pull request!
-
-## 📄 Licencia
-Este proyecto está bajo la Licencia MIT. Consulta el archivo [LICENSE](LICENSE) para más detalles.
